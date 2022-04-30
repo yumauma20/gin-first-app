@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-first-app/db"
-	"github.com/gin-first-app/router"
+	"gin-first-app/db"
+	// "gin-first-app/router"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 	defer db.Close()
 
 	//ルーティング設定
-	router.Router()
+	// router.Router()
 }
