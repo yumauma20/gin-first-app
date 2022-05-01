@@ -1,9 +1,6 @@
 package main
 
-import (
-	"gin-first-app/db"
-	// "gin-first-app/router"
-)
+import "gin-first-app/db"
 
 func main() {
 	//DBのopen処理とcloseを遅延
